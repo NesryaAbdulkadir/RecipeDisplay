@@ -11,7 +11,6 @@ nav {
   background-color: rgb(255, 255, 255);
   color: rgb(71, 71, 71);
   padding: 20px;
-
   font-size: 1.3em;
   text-align: center;
   position: sticky;
@@ -56,4 +55,22 @@ li {
 }
 .recipe-item {
   list-style: none;
+}
+.recipe-title {
+  font-size: 2em;
+  text-align: center;
+  padding-top: 30px;
+}
+.recipe-meta {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+}
+.recipe-ingredients,
+.recipe-instructions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
